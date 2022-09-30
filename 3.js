@@ -1,13 +1,13 @@
 const getSum = (num1) => {
-    return (num2) => {
-        reuslt = num1 + num2;
-        if(typeof(reuslt) !== "number" || isNaN(reuslt)) {
-            return "Одно из значений не является числом."
-        } else {
-            return reuslt;
-        }
+  return (num2) => {
+    reuslt = num1 + num2;
+    if (typeof reuslt !== "number" || isNaN(reuslt)) {
+      return "Одно из значений не является числом.";
+    } else {
+      return reuslt;
     }
-}
+  };
+};
 
 let number1 = 10;
 let number2 = 5;
