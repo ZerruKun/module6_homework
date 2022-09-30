@@ -1,4 +1,4 @@
-let arr = [1,null,2,true,3,4,"test",5,6,7.4];
+let arr = [0,1,null,2,true,3,4,"test",5,6,7.4];
 
 const typeOfNumbersCounter = (arr) => {
     let even = 0;
